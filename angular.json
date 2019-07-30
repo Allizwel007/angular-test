@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.sass",
+              "./src/assets/libs/start-bootstrap/sb-admin-2.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/assets/libs/jquery/jquery.min.js",
+              "./src/assets/libs/start-bootstrap/sb-admin-2.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -88,9 +92,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.sass",
+              "./src/assets/libs/bootstrap/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/assets/libs/jquery/jquery.min.js",
+              "./src/assets/libs/bootstrap/bootstrap.min.js"
+            ]
           }
         },
         "lint": {
